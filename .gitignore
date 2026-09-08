@@ -1,0 +1,32 @@
+# Python 虚拟环境
+.venv/
+venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# 打包产物与临时文件
+dist/
+build/
+*.exe
+upx.zip
+upx_temp/
+
+# IDE 与开发工具
+.vscode/
+.idea/
+.codebuddy/
+
+# 日志
+*.log
+
+# 运行时配置
+config.json
+
+# 系统文件
+Thumbs.db
+.DS_Store
