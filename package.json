@@ -1,7 +1,7 @@
 {
   "name": "matrixhunter",
   "private": true,
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "description": "MatrixHunter - 通用内存矩阵发现与验证工具 (Rust + Tauri + React)",
   "scripts": {
