@@ -1,32 +1,41 @@
-# Python 虚拟环境
-.venv/
-venv/
-env/
+# ---------------- 依赖 ----------------
+node_modules/
 
-# Python 缓存
-__pycache__/
-*.py[cod]
-*$py.class
-.pytest_cache/
-
-# 打包产物与临时文件
+# ---------------- 构建产物 ----------------
 dist/
 build/
-*.exe
-upx.zip
-upx_temp/
+src-tauri/target/
 
-# IDE 与开发工具
+# ---------------- 可执行 / 二进制 ----------------
+*.exe
+*.dll
+*.pdb
+*.msi
+*.so
+*.dylib
+
+# ---------------- IDE / 工具 ----------------
 .vscode/
 .idea/
 .codebuddy/
 
-# 日志
+# ---------------- 日志 ----------------
 *.log
 
-# 运行时配置
+# ---------------- 运行时配置 ----------------
 config.json
 
-# 系统文件
+# ---------------- 历史遗留（Python 版残留） ----------------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+upx.zip
+upx_temp/
+
+# ---------------- 系统文件 ----------------
 Thumbs.db
 .DS_Store

@@ -1,7 +1,0 @@
-PySide6>=6.6
-pymem>=1.13
-psutil>=5.9
-pywin32>=306
-numpy>=1.26
-pyinstaller>=6.0
-pytest>=8.0
